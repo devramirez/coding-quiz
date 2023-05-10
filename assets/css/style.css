@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
 /* Tablets - header changes color */

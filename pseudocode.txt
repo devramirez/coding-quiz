@@ -1,0 +1,16 @@
+So the task is to create a simple application where the format is a quiz. There will be questions asked and the user will answer said quesitons.
+There needs to be a highscore button at the top or bottom and a timer as well to keep track of how much time they have to answer each question.
+The highscore button will show the highscores of every user that has completed the quiz. There should be a back button and a clear highscore button.
+The timer will be not be reset for every question and if there is a missed question there should be a 10 second penalty.
+
+The appearance of the page should not be complicated but of a simple design with maybe a neutral background image.
+There will be a start button at the beginning of the page
+The questions will have the format of a multiple-choice test with the answers being held in a button so 4 buttons in total for 4 possible answers.
+
+The questions should probably be in an array and have a function iterate through said array.
+There will have to be another function to check if the answers are true and conditional statements that direct the function.
+If answer is correct, display a message saying, "Correct!" & move on to the next question. If the answer is incorrect, display a message saying "incorrect" and deduce the time by 10 seconds.
+Each question will be worth a total of 5 points for a maximum score of 30 so there will be 6 questions asked.
+The score will need to be logged and kept in local storage so the highscore function can keep track of the score. This will have to be done for every user.
+
+We will be utilizing everything we've learned up to this point. From structure of HTML to styling of CSS to functionality of JavaScript which includes everything from conditional statements, functions, event listeners, DOM, document queries, and local storage.
