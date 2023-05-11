@@ -37,25 +37,65 @@ main {
     justify-content: center;
 }
 
+/* Hiding the bullet points with this code */
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 50px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Display the intro page and hide the rest */
+
+.question-page, .submit-page, .highscore-page, #answer-check {
+    display: none;
+}
+
+.button {
+    background: white;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button:hover {
+    background-color: rgb(38, 229, 165);
+}
+
+#timer {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    
+}
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-    header {
-    background-image: url(https://unsplash.com/photos/5hvn-2WW6rY);
+    main {
+        margin-right: 50x;
+        margin-left: 50px;
     }
   }
   
   /* Large smartphones - navbar changes color */
   @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    main {
+        margin-right: 20x;
+        margin-left: 20px;
     }
   }
   
   /* Small smartphones - image placeholders change color */
   @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
+    main {
+        margin-right: 60x;
+        margin-left: 60px;
     }
   }

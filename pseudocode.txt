@@ -14,3 +14,4 @@ Each question will be worth a total of 5 points for a maximum score of 30 so the
 The score will need to be logged and kept in local storage so the highscore function can keep track of the score. This will have to be done for every user.
 
 We will be utilizing everything we've learned up to this point. From structure of HTML to styling of CSS to functionality of JavaScript which includes everything from conditional statements, functions, event listeners, DOM, document queries, and local storage.
+
