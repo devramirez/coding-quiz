@@ -1,20 +1,37 @@
-/* Imported Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 * {
     font-family:'Montserrat', sans-serif ;
+    box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 body {
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url(https://unsplash.com/photos/5hvn-2WW6rY);
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    text-align: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.question-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
@@ -22,7 +39,7 @@ body {
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+    background-image: url(https://unsplash.com/photos/5hvn-2WW6rY);
     }
   }
   
