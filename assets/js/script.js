@@ -11,8 +11,15 @@ var answerBtn1 = document.querySelector('#answer_btn1');
 var answerBtn2 = document.querySelector('#answer_btn2');
 var answerBtn3 = document.querySelector('#answer_btn3');
 var answerBtn4 = document.querySelector('#answer_btn4');
-
-
+// Answer, submit, score queries
+var answerCheck = document.querySelector('#answer-check');
+var scoreBoard = document.querySelector('#submit-page');
+var highScorePage = document.querySelector('#highscore');
+var scoreRecord = document.querySelector('#score-record');
+var finish = document.querySelector('#finish');
+// Back and clear button queries 
+var backBtn = document.querySelector('#back-btn');
+var clearBtn = document.querySelector('#clear-btn');
 
 
 
