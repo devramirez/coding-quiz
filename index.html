@@ -28,7 +28,6 @@
     <!-- Main Section Start -->
     <main>
         <!-- Intro Section  -->
-        <div>
             <section class="intro-page" id="intro-page">
                 <div id="introduction">
                     <h1>Welcome to the Coding Quiz</h1>
@@ -38,7 +37,6 @@
                     <button class="button" id="start-button">Start Quiz</button>
                 </div>
             </section>
-        </div>
         
         <!-- Question Sections -->
     
@@ -46,12 +44,9 @@
                 <div>
                     <div>
                         <h2 id="question-ask">Answer the following:</h2>
-                        <ul>
-                            <li><button class="answer button" id="answer_btn1" value="a">Answer 1</button></li>
-                            <li><button class="answer button" id="answer_btn2" value="b">Answer 2</button></li>
-                            <li><button class="answer button" id="answer_btn3" value="c">Answer 3</button></li>
-                            <li><button class="answer button" id="answer_btn4" value="d">Answer 4</button></li>
-                        </ul>
+                        <div id="answersContainer">
+                        
+                        </div>
                     </div>
                 </div>
 
@@ -66,7 +61,7 @@
                     <h2 id="finish">Quiz Completed!</h2>
                     <p id="final_score">Your final score is:</p>
                     <p>Enter initials:
-                        <input id="initial">
+                        <input type="text" id="initial">
                         <button class="button" id="submit-btn">Submit</button>
                     </p>
                 </div>
