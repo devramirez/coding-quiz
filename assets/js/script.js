@@ -31,14 +31,24 @@ var timer = 60;
 var interval 
 var questions = [
     {
-        question: "Question 1: We will enter questions here",
-        answers: ["a. oneAnswer", "b. twoAnswer", "c. thirdAns", "d. fourthAns"],
-        rightAnswer: "a. oneAnswer"
+        question: "Question 1: How do you create a function in JavaScript?",
+        answers: ["a. function = myFunction()", "b. myFunction()", "c. function = myFunction()", "d. createMyFunction()"],
+        rightAnswer: "b. myFunction()"
     },
     {
-        question: "Question 2: We will enter questions here",
-        answers: ["e. oneAnswer", "f. twoAnswer", "g. thirdAns", "h. fourthAns"],
-        rightAnswer: "a. oneAnswer"
+        question: "Question 2: Arrays use _____ at the start and end ",
+        answers: ["a. ()", "b. {}", "c. []", "d. <>"],
+        rightAnswer: "c. []"
+    },
+    {
+        question: "Question 2: What do you use for 'strict' equality? ",
+        answers: ["a. !=", "b. ==", "c. +=", "d. ==="],
+        rightAnswer: "d. ===",
+    },
+    {
+        question: "The first index of an array starts at: ",
+        answers: ["a. 0", "b. 1", "c. 2", "d. 3"],
+        rightAnswer: "a. 0"
     }
 ]
 
@@ -82,7 +92,7 @@ interval = setInterval(() => {
   }
 }, 1000);
 }
-// countDown()
+// event listeners
 
 startBtn.addEventListener('click', function(event){
     event.preventDefault()
