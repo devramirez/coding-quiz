@@ -51,7 +51,7 @@ var questions = [
         rightAnswer: "a. 0"
     }
 ]
-
+// function to display questions
 function displayQuestions(array) {
     if (questionIndex < array.length) {
         answersContainer.innerHTML = ""
