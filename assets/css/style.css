@@ -15,11 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
-    background-image: url(./assets/images/monya-prinsloo-HZmRQsyvGHA-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
+   
 }
 
 main {
@@ -53,7 +49,7 @@ li {
 
 /* Display the intro page and hide the rest */
 
-.question-page, .submit-page, .highscore-page, #answer-check {
+.question-page, .submit-page, .highscore-page, #check-line {
     display: none;
 }
 

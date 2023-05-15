@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poiret+One&display=swap" rel="stylesheet">
-    <p style="background-image: url('./assets/images/monya-prinsloo-HZmRQsyvGHA-unsplash.jpg');"></p>
+    <!-- <p style="background-image: url('./assets/images/monya-prinsloo-HZmRQsyvGHA-unsplash.jpg');"></p> -->
     <title>Coding Quiz</title>
 </head>
 
@@ -18,9 +18,11 @@
     <header>
     <!-- Header Section -->
         <div class="header">
+            <div>
                 <button class="button" id="score-check">View Highscores</button>
+            </div>
         </div>
-            <div id="timer">
+            <div>
                 <p id="timer">Time left: 60s</p>
             </div>
         </div>
@@ -28,6 +30,7 @@
 
     <!-- Main Section Start -->
     <main>
+        <div>
         <!-- Intro Section  -->
             <section class="intro-page" id="intro-page">
                 <div id="introduction">
@@ -43,15 +46,20 @@
     
             <section class="question-page" id="question-page">
                 <div>
+                    <!-- Question Body Section -->
                     <div>
                         <h2 id="question-ask">Answer the following:</h2>
-                        <div id="answersContainer">
+                        <ul>
+                            <li><button class ="choices button" id="answer_btn1" value="a">Answer1</button></li>
+                            <li><button class ="choices button" id="answer_btn2" value="b">Answer2</button></li>
+                            <li><button class ="choices button" id="answer_btn3" value="c">Answer3</button></li>
+                            <li><button class ="choices button" id="answer_btn4" value="d">Answer4</button></li>
+                        </ul>
                         
-                        </div>
                     </div>
                 </div>
 
-                <div id="answer-check">
+                <div id="check-line">
                     <p>Correct or Incorrect</p>
                 </div>
             </section>
@@ -83,7 +91,7 @@
             </section>
 
         
-
+        </div>
     </main>
     <script src="./assets/js/script.js"></script>
     
