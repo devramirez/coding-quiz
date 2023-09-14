@@ -1,9 +1,9 @@
 :root{
-    --btnBackground: #5865f2;
-    --btnBackgroundHover: #4752c4;
-    --mainBackground: #36393f;
+    --btnBackground: ##33658A;
+    --btnBackgroundHover: #7A95A1;
+    --mainBackground: #4F6D7A;
     --mainTextColor: #ffffff;
-    --secondaryBackground: #4f545c;
+    --secondaryBackground: #DBE9EE;
 }
 
 body {
@@ -128,28 +128,3 @@ footer {
 #highscore-input-div > input {
     width:30%;
 }
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-    main {
-        margin-right: 50x;
-        margin-left: 50px;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    main {
-        margin-right: 20x;
-        margin-left: 20px;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    main {
-        margin-right: 60x;
-        margin-left: 60px;
-    }
-  }
